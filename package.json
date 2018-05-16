@@ -1,0 +1,20 @@
+{
+  "name": "api_practice",
+  "version": "1.0.0",
+  "description": "practice making a dyanmic website",
+  "main": "function.js",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "mickey dang",
+  "license": "ISC"
+}

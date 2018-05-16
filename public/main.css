@@ -1,0 +1,86 @@
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.wallpaper {
+    background: url(bg_three.jpg);
+    background-size: cover;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin : 0px;
+}
+
+
+
+.greeting {
+    font-size: 3em;
+    align-content: center;
+    text-align: center;
+    position:absolute;
+    width:100%;
+    height:auto;
+    top:30%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.flashcard{
+    position: absolute;
+    top:5%;
+    left:50%;
+    width: 45%;
+    height: auto;
+    text-align: right;
+    margin-right: 50px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #EFEFEF;
+    opacity: 1; /* Firefox */
+}
+
+.search {
+    border: none;
+    border-bottom: 3px solid #ffffff;
+    background: #D0000000;
+    color: #EFEFEF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+}
+
+
+.noSelect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.whiteText {
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.button {
+    width: 100px;
+    height: 100%;
+    background-color: #ffffff;
+    color: #363636;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    border-radius: 15%;
+}
+
